@@ -1,5 +1,5 @@
 # Pizza-sales-analysis
-SQL and Power BI project analyzing pizza sales KPIs and trends
+SQL and Excel project analyzing pizza sales KPIs and trends
 
 ##  Project Overview
 This project analyzes pizza sales data to uncover business insights.  
@@ -7,8 +7,7 @@ The workflow includes:
 1. Cleaning raw sales data from Excel/CSV.  
 2. Writing and executing SQL queries in **SQL Server Management Studio (SSMS)**.  
 3. Calculating key performance indicators (KPIs).  
-4. Preparing data for visualizations.  
-5. Building an interactive dashboard in Power BI (planned).  
+4. Preparing data for visualizations.   
 
 The goal is to understand sales performance, customer preferences, and identify best/worst-selling products.
 
@@ -23,7 +22,7 @@ The goal is to understand sales performance, customer preferences, and identify 
 
 ---
 
-##  Visualizations (Planned in Power BI)
+##  Visualizations 
 - **Daily Trend of Orders** → Bar chart showing order volumes per day  
 - **Hourly Trend of Orders** → Line chart showing peak order times  
 - **Sales by Pizza Category** → Pie chart showing category contribution to revenue  
@@ -37,8 +36,7 @@ The goal is to understand sales performance, customer preferences, and identify 
 ##  Tools & Technologies
 - **SQL Server Management Studio (SSMS)** → Query execution and KPI calculations  
 - **SQL Server Express** → Database engine  
-- **Excel/CSV** → Data cleaning and preparation  
-- **Power BI** → Dashboard creation and visualization (upcoming)  
+- **Excel** → Data cleaning and preparation  
 - **GitHub** → Project documentation and version control  
 
  
