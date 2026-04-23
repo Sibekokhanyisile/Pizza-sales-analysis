@@ -1,42 +1,42 @@
-# Pizza-sales-analysis
-SQL and Excel project analyzing pizza sales KPIs and trends
+#  Pizza Sales Analysis
 
 ##  Project Overview
 This project analyzes pizza sales data to uncover business insights.  
 The workflow includes:
-1. Cleaning raw sales data from Excel/CSV.  
+1. Importing raw data from a SQL database.  
 2. Writing and executing SQL queries in **SQL Server Management Studio (SSMS)**.  
-3. Calculating key performance indicators (KPIs).  
-4. Preparing data for visualizations.   
-
-The goal is to understand sales performance, customer preferences, and identify best/worst-selling products.
+3. Cleaning and processing data in Excel, including helper columns.  
+4. Building interactive dashboards in Excel with KPIs and charts.  
+5. Documenting the entire process in GitHub.  
 
 ---
 
 ##  Key Metrics (KPIs)
-- **Total Revenue** → Sum of all pizza order prices  
-- **Average Order Value (AOV)** → Total revenue ÷ total number of orders  
-- **Total Pizzas Sold** → Sum of all pizza quantities sold  
-- **Total Orders** → Count of all orders placed  
-- **Average Pizzas per Order** → Total pizzas sold ÷ total orders  
+- **Total Revenue** → $817,860  
+- **Average Order Value (AOV)** → $38.31  
+- **Total Pizzas Sold** → 49,574  
+- **Total Orders** → 21,350  
+- **Average Pizzas per Order** → 2.32  
 
 ---
 
-##  Visualizations 
-- **Daily Trend of Orders** → Bar chart showing order volumes per day  
-- **Hourly Trend of Orders** → Line chart showing peak order times  
-- **Sales by Pizza Category** → Pie chart showing category contribution to revenue  
-- **Sales by Pizza Size** → Pie chart showing customer size preferences  
-- **Total Pizzas Sold by Category** → Funnel chart comparing category performance  
-- **Top 5 Best Sellers** → Bar chart of most popular pizzas  
-- **Bottom 5 Worst Sellers** → Bar chart of least popular pizzas  
+##  Dashboard Insights
+- **Daily Trend of Orders** → Orders peak on Fridays and Saturdays.  
+- **Hourly Trend of Orders** → Highest orders between 12–1pm and 4–8pm.  
+- **Sales by Category** → Veggie and Supreme pizzas contribute the most revenue.  
+- **Sales by Size** → Large pizzas dominate sales (45.9%).  
+- **Top 5 Best Sellers** → Classic Deluxe, Barbecue Chicken, Hawaiian, Pepperoni, Thai Chicken.  
+- **Bottom 5 Worst Sellers** → Soppressata, Spinach Supreme, Calabrese, Mediterranean, Brie Carre.  
 
 ---
 
 ##  Tools & Technologies
 - **SQL Server Management Studio (SSMS)** → Query execution and KPI calculations  
 - **SQL Server Express** → Database engine  
-- **Excel** → Data cleaning and preparation  
-- **GitHub** → Project documentation and version control  
+- **Excel** → Data import, cleaning, helper columns, dashboards  
+- **GitHub** → Documentation and version control  
+
+
+
 
  
